@@ -1,4 +1,7 @@
 .container {
+  display: flex;
+  align-items: center; /*Aligns flex items along the horizontal/cross axis of the current line of the flex container. */
+  justify-content: center; /*Aligns flex items along the Vertical/main axis of the current line of the flex container.*/
   background: dodgerblue;
   border: 4px solid midnightblue;
   width: 400px;
